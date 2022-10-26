@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE listaVentas SYSTEM "Ejercicio 1.dtd">
+<!-- <!DOCTYPE listaVentas SYSTEM "Ejercicio 1.dtd"> -->
 
-<listaVentas>
+<listaVentas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio 1.xsd">
 
     <venta>
         <importe>1500</importe>
         <comprador>Sebastian Ospina</comprador>
         <vendedor>AMD</vendedor>
-        <fecha>27-05-2022</fecha>
+        <fecha>2022-05-27</fecha>
         <codigoFactura>F01-01</codigoFactura>
     </venta>
 
@@ -16,7 +16,7 @@
         <importe>750</importe>
         <comprador>Samuel Gaviria</comprador>
         <vendedor>AMD</vendedor>
-        <fecha>27-05-2022</fecha>
+        <fecha>2022-05-27</fecha>
         <codigoFactura>F01-02</codigoFactura>
     </venta>
 
